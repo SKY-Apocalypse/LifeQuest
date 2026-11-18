@@ -8,7 +8,7 @@
   "build": "node ./node_modules/typescript/bin/tsc -b && vite build",
   "test": "vitest run",
   "preview": "vite preview"
-}
+},
 
   "dependencies": {
     "framer-motion": "^11.11.17",
