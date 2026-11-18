@@ -3,12 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "test": "vitest run",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "node ./node_modules/typescript/bin/tsc -b && vite build",
+  "test": "vitest run",
+  "preview": "vite preview"
+}
+
   "dependencies": {
     "framer-motion": "^11.11.17",
     "html-to-image": "^1.11.13",
